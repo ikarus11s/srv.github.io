@@ -21,7 +21,7 @@
         renderer.setClearColor(0xf5f5f5);
         document.getElementById('cubo-container').appendChild(renderer.domElement);
 
-        const cubeSize = 5;
+        const cubeSize = 10;
         const geometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
         const edgeGeometry = new THREE.EdgesGeometry(geometry);
         const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x4682B4, linewidth: 2 }); // Azul acero, más suave
